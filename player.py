@@ -73,9 +73,9 @@ class Human(Player):
         move = ""
         prompt = """
 Please select a move to play. Your options are:
-1. rock
-2. paper
-3. scissors
+rock
+paper
+scissors
         """
         while move not in self.moves:
             move = input(prompt)
